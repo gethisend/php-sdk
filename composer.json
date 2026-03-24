@@ -2,6 +2,7 @@
     "name": "hisend/hisend-php",
     "description": "Official PHP SDK for Hisend",
     "type": "library",
+    "license": "MIT",
     "require": {
         "php": ">=8.1",
         "guzzlehttp/guzzle": "^7.8"

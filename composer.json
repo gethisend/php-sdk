@@ -1,0 +1,29 @@
+{
+    "name": "hisend/hisend-php",
+    "description": "Official PHP SDK for Hisend",
+    "type": "library",
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hisend\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hisend\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hisend",
+            "email": "support@hisend.app"
+        }
+    ],
+    "minimum-stability": "stable"
+}
